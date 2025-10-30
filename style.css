@@ -1,0 +1,143 @@
+/* Fonts */
+.tomorrow-thin {
+  font-family: "Tomorrow", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.tomorrow-extralight {
+  font-family: "Tomorrow", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.tomorrow-light {
+  font-family: "Tomorrow", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.tomorrow-regular {
+  font-family: "Tomorrow", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.tomorrow-medium {
+  font-family: "Tomorrow", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.tomorrow-semibold {
+  font-family: "Tomorrow", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.tomorrow-bold {
+  font-family: "Tomorrow", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.tomorrow-extrabold {
+  font-family: "Tomorrow", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.tomorrow-black {
+  font-family: "Tomorrow", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.tomorrow-thin-italic {
+  font-family: "Tomorrow", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.tomorrow-extralight-italic {
+  font-family: "Tomorrow", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.tomorrow-light-italic {
+  font-family: "Tomorrow", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.tomorrow-regular-italic {
+  font-family: "Tomorrow", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.tomorrow-medium-italic {
+  font-family: "Tomorrow", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.tomorrow-semibold-italic {
+  font-family: "Tomorrow", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.tomorrow-bold-italic {
+  font-family: "Tomorrow", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.tomorrow-extrabold-italic {
+  font-family: "Tomorrow", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.tomorrow-black-italic {
+  font-family: "Tomorrow", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+/* Background */
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.bg {
+  background-image: url("pictures/code-screen-blurry.jpg");
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #00ff08;
+  font-family: "Tomorrow", sans-serif;
+  font-size: 32px;
+  text-shadow: 0 0 10px #000;
+  border-right: 2px solid #00ff08;
+  white-space: pre;
+  overflow: hidden;
+}
+
+@keyframes blink {
+  50% { border-color: transparent; }
+}
+#text {
+  animation: blink 0.8s infinite;
+}
