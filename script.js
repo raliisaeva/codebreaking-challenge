@@ -1,5 +1,6 @@
 const startingTimer = 15;
 var timeSeconds = startingTimer * 60;
+var guessesLeft = 3;
 
 window.addEventListener("load", function() {
   startTimer(timeSeconds, "countdown-timer");
@@ -16,7 +17,7 @@ function startTimer(durationInSeconds, displayElementId) {
     if (timeRemaining <= 0)
     {
         clearInterval(timerInterval);
-        display.textContent = "YOU LOST!";
+        alert("YOU RAN OUT OF TIME! YOU LOST!");
     }
     timeRemaining--;
   }
@@ -50,4 +51,25 @@ morseCode.addEventListener("click", function () {
 
 decimalToBinary.addEventListener("click", function () {
     consoleDisplay.innerHTML = "~~~ Decimal To Binary ~~~<br><br>To convert a decimal (base-10) number to a binary (base-2) number, the standard method is to use repeated division by 2 and record the remainders in reverse order.<br><br>For example, with the number 10:<br>10 / 2 = 5 remainder 0<br>5 / 2 = 2 remainder 1<br>2 / 2 = 1 remainder 0<br>1 / 2 = 0 remainder 1<br><br>We look at the remainders from the bottom up and therefore the number 10 in decimal record is the number 1010 in binary record.<br><br>Now count how many 1s are there in the binary record of the number 159 in its decimal record.";
+})
+
+document.getElementById("submit-code").addEventListener("click", function () {
+    if(Number(document.getElementById("digit1").value) === 8 && Number(document.getElementById("digit2").value) === 6 && Number(document.getElementById("digit3").value) === 7 && Number(document.getElementById("digit4").value) === 4)
+    {
+        alert("YOU WON!");
+
+    }
+    else
+    {
+        guessesLeft--;
+        document.getElementById("guesses-number").textContent = guessesLeft;
+        if(guessesLeft === 0)
+        {
+            alert("YOU RAN OUT OF GUESSES! YOU LOST!");
+        }
+    }
+    document.getElementById("digit1").value = "";
+    document.getElementById("digit2").value = "";
+    document.getElementById("digit3").value = "";
+    document.getElementById("digit4").value = "";
 })
