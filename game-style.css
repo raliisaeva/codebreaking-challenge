@@ -1,0 +1,165 @@
+/* Fonts */
+.tomorrow-thin {
+  font-family: "Tomorrow", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.tomorrow-extralight {
+  font-family: "Tomorrow", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.tomorrow-light {
+  font-family: "Tomorrow", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.tomorrow-regular {
+  font-family: "Tomorrow", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.tomorrow-medium {
+  font-family: "Tomorrow", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.tomorrow-semibold {
+  font-family: "Tomorrow", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.tomorrow-bold {
+  font-family: "Tomorrow", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.tomorrow-extrabold {
+  font-family: "Tomorrow", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.tomorrow-black {
+  font-family: "Tomorrow", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.tomorrow-thin-italic {
+  font-family: "Tomorrow", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.tomorrow-extralight-italic {
+  font-family: "Tomorrow", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.tomorrow-light-italic {
+  font-family: "Tomorrow", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.tomorrow-regular-italic {
+  font-family: "Tomorrow", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.tomorrow-medium-italic {
+  font-family: "Tomorrow", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.tomorrow-semibold-italic {
+  font-family: "Tomorrow", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.tomorrow-bold-italic {
+  font-family: "Tomorrow", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.tomorrow-extrabold-italic {
+  font-family: "Tomorrow", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.tomorrow-black-italic {
+  font-family: "Tomorrow", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+/* Background */
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.bg {
+    background-image: url("pictures/code-screen-green.jpg");
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* IDs */
+#timer {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(43, 85, 68, 0.15);
+    border: 2px solid #00ff08;
+    text-align: center;
+    color: #00ff08;
+    text-shadow: 0 0 10px #000;
+    padding: 5px 50px 20px;
+    border-radius: 8px;
+    letter-spacing: 3px;
+    backdrop-filter: blur(6px);
+}
+
+#countdown-timer {
+  font-size: 32px;
+  font-family: "Tomorrow", sans-serif;
+  letter-spacing: 2px;
+}
+
+#folders-table {
+    position: absolute;
+    top: 30%;
+    right: 40%;
+    color: white;
+    text-shadow: 0 0 10px #000;
+    text-align: center;
+    font-size: 20px;
+}
+
+/* Classes */
+.folder-pictures {
+    width: 30%;
+    height: 30%;
+}
+
+.down-cells {
+    padding-top: 5%;
+}
