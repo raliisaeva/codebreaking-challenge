@@ -1,4 +1,5 @@
-﻿# codebreaking-challenge
+ [![Athena Award Badge](https://img.shields.io/endpoint?url=https%3A%2F%2Faward.athena.hackclub.com%2Fapi%2Fbadge)](https://award.athena.hackclub.com?utm_source=readme)
+ # codebreaking-challenge
 Break The Code Challenge
 
 1. What is my project and what does it do?
@@ -29,4 +30,7 @@ Link from the morse code challenge:
 
 https://militaryalphabet.net/wp-content/uploads/2020/12/morse-code-scaled.jpg
 
+To try the project yourself, go to this link: https://raliisaeva.github.io/codebreaking-challenge/
+
 <img width="3200" height="2000" alt="break-the-code_project" src="https://github.com/user-attachments/assets/d4584d9c-9415-44fe-a42d-f52d6dbb86d9" />
+
