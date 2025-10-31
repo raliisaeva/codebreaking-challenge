@@ -20,9 +20,9 @@
 
         <table id = "folders-table" class = "tomorrow-medium-italic">
             <tr>
-                <th><img class = "folder-pictures" src = "pictures/gray-folder.png"></th>
-                <th><img class = "folder-pictures"src = "pictures/gray-folder.png"></th>
-                <th><img class = "folder-pictures"src = "pictures/gray-folder.png"></th>
+                <th id = "caesar-cipher"><img class = "folder-pictures" src = "pictures/gray-folder.png"></th>
+                <th id = "pseudo-code"><img class = "folder-pictures"src = "pictures/gray-folder.png"></th>
+                <th id = "pascal-triangle"><img class = "folder-pictures"src = "pictures/gray-folder.png"></th>
                 
             </tr>
             <tr>
@@ -31,14 +31,19 @@
                 <td>pascal-triangle</td>
             </tr>
             <tr>
-                <th class = "down-cells"><img class = "folder-pictures"src = "pictures/gray-folder.png"></th>
-                <th class = "down-cells"><img class = "folder-pictures"src = "pictures/gray-folder.png"></th>
+                <th id = "morse-code" class = "down-cells"><img class = "folder-pictures"src = "pictures/gray-folder.png"></th>
+                <th id = "decimal-to-binary" class = "down-cells"><img class = "folder-pictures"src = "pictures/gray-folder.png"></th>
             </tr>
             <tr>
                 <td>morse-code</td>
                 <td>decimal-to-binary</td>
             </tr>
         </table>
+
+        <div>
+            <div id = "console-title" class = "tomorrow-medium"><h3>Click on a folder to see its contents</h3></div>
+            <div id = "console" class = "tomorrow-regular-italic"><p id = "console-text"></p></div>
+        </div>
 
         <script src = "script.js"></script>
     </body>
