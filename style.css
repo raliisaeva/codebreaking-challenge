@@ -121,30 +121,7 @@ body, html {
   background-size: cover;
 }
 
-#text-container {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  display: inline;
-  white-space: pre;
-  text-align: center;
-  color: #00ff08;
-  font-size: 32px;
-  text-shadow: 0 0 10px #000;
-}
-
-#blinking-cursor {
-    display: inline-block;
-    color: #00ff08;
-    animation: blinkCursor 1s step-start infinite;
-    opacity: 0;
-}
-
-@keyframes blinkCursor {
-  50% { opacity: 0; }
-}
-
+/* IDs from index.html */
 #start-button {
   position: absolute;
   top: 50%;
@@ -170,6 +147,30 @@ body, html {
     50% { opacity: 0.3; }
 }
 
+#text-container {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: inline;
+  white-space: pre;
+  text-align: center;
+  color: #00ff08;
+  font-size: 32px;
+  text-shadow: 0 0 10px #000;
+}
+
+#blinking-cursor {
+    display: inline-block;
+    color: #00ff08;
+    animation: blinkCursor 1s step-start infinite;
+    opacity: 0;
+}
+
+@keyframes blinkCursor {
+  50% { opacity: 0; }
+}
+
 #continue-button {
     position: absolute;
     top: 80%;
@@ -185,4 +186,46 @@ body, html {
     letter-spacing: 3px;
     backdrop-filter: blur(6px);
     opacity: 0;
+}
+
+/* IDs from game-instructions.html */
+#game-instructions {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #00ff08;
+    font-size: 32px;
+    text-shadow: 0 0 10px #000;
+    white-space: pre;
+    text-align: center;
+    overflow: hidden;
+}
+
+#blinking-cursor-instructions {
+    display: inline-block;
+    color: #00ff08;
+    animation: blinkCursor 1s step-start infinite;
+    opacity: 0;
+}
+
+#start-challenge {
+    position: absolute;
+    top: 87%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(43, 85, 68, 0.15);
+    border: 2px solid #00ff08;
+    color: #00ff08;
+    font-size: 40px;
+    padding: 12px 30px;
+    border-radius: 8px;
+    cursor: pointer;
+    letter-spacing: 3px;
+    backdrop-filter: blur(6px);
+    opacity: 0;
+}
+
+#blinking-text-button-instructions {
+    animation: blinkFade 3s ease-in-out infinite;
 }

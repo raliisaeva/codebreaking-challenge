@@ -14,13 +14,11 @@
     <body>
         <div class="bg"></div>
 
-        <button id = "start-button" class = "tomorrow-medium"><span id = "blinking-text-button">BEGIN TRANSMISSION...</span></button>
-
-        <div id = "text-container" class = "tomorrow-regular">
-            <span id = "text"></span><span id = "blinking-cursor">|</span>
+        <div id = "game-instructions" class = "tomorrow-regular">
+            <span id = "text"></span><span id = "blinking-cursor-instructions">|</span>
         </div>
-        <button id = "continue-button" class = "tomorrow-medium" onclick = "window.location.href = 'game-instructions.html'"><span id = "blinking-text-button-instructions">CONTINUE</span></button>
+        <button id = "start-challenge" class = "tomorrow-medium" onclick = "window.location.href = 'game.html'"><span id = "blinking-text-button">START CHALLENGE</span></button>
 
-        <script src = "style.js"></script>
+        <script src = "instructions.js"></script>
     </body>
 </html>
