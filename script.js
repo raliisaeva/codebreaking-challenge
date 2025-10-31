@@ -41,5 +41,13 @@ pseudoCode.addEventListener("click", function () {
 })
 
 pascalTriangle.addEventListener("click", function () {
-    consoleDisplay.innerHTML = "~~~ Pascal's Triangle ~~~<br><br>Pascal's triangle is a triangular array of numbers where each number is the sum of the two directly above it, starting with a single 1 at the top.<br><br>It is used in algebra for binomial expansions and in probability to find combinations.<br><br>Here are how the first few rows of Pascal's Triangle look like:<br>1: \t1<br>2:    1 1<br>3:   1 2 1<br>4: 1 3 3 1<br><br>What is the number in the middle of the 9th row?";
+    consoleDisplay.innerHTML = "~~~ Pascal's Triangle ~~~<br><br>Pascal's triangle is a triangular array of numbers where each number is the sum of the two directly above it, starting with a single 1 at the top. The outer edges of the triangle are also always ones.<br><br>It is used in algebra for binomial expansions and in probability to find combinations.<br><br>Here are how the first few rows of Pascal's Triangle look like:<br>1: \t1<br>2:    1 1<br>3:   1 2 1<br>4: 1 3 3 1<br><br>What is the number in the middle of the 9th row?";
+})
+
+morseCode.addEventListener("click", function () {
+    consoleDisplay.innerHTML = "~~~ Morse Code ~~~<br><br>Morse code is a communication system that uses sequences of short and long signals, called 'dots' and 'dashes', to represent letters, numbers, and punctuation.<br><br>Developed by Samuel Morse and Alfred Vail in the 1830s, it was originally used with telegraphs.<br><br>Use this cheat sheet and translate this message:<br>..-. --- .-. / .- .-.. .-.. / -. ..- -- -... . .-. ... --..-- / ... ..- -- / .- .-.. .-.. / -.. .. --. .. - ... / ..- -. - .. .-.. / -.-- --- ..- / .-. . .- -.-. .... / .- / ... .. -. --. .-.. . / -.. .. --. .. - / -. ..- -- -... . .-. .-.-.- / - .... . / -.-. --- -.. . / .. ... / - .... . ... . / -. ..- -- -... . .-. ... / .. -. / .- .-.. .--. .... .- -... . - .. -.-. .- .-.. / --- .-. -.. . .-. / --- ..-. / - .... . / ..-. --- .-.. -.. . .-. / -. .- -- . ... .-.-.-<br><br>Sheet: https://militaryalphabet.net/wp-content/uploads/2020/12/morse-code-scaled.jpg";
+})
+
+decimalToBinary.addEventListener("click", function () {
+    consoleDisplay.innerHTML = "~~~ Decimal To Binary ~~~<br><br>To convert a decimal (base-10) number to a binary (base-2) number, the standard method is to use repeated division by 2 and record the remainders in reverse order.<br><br>For example, with the number 10:<br>10 / 2 = 5 remainder 0<br>5 / 2 = 2 remainder 1<br>2 / 2 = 1 remainder 0<br>1 / 2 = 0 remainder 1<br><br>We look at the remainders from the bottom up and therefore the number 10 in decimal record is the number 1010 in binary record.<br><br>Now count how many 1s are there in the binary record of the number 159 in its decimal record.";
 })
